@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
+import route from '../../routes/routes';
+import History from '../History/History';
+import Contact from '../Contact/Contact';
 
 export default class About extends Component {
   render() {
